@@ -21,7 +21,7 @@ sm3 <- as.numeric(ds2$Sub_metering_3)
 
 # make the plot3
 png("plot3.png", width=480, height=480)
-plot(dtm, sm1, type="l", ylab="Energy Submetering", xlab="")
+plot(dtm, sm1, type="l", ylab="Energy Sub metering", xlab="")
 lines(dtm, sm2, type="l", col="red")
 lines(dtm, sm3, type="l", col="blue")
 # lty  1 = continous line

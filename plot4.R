@@ -35,10 +35,10 @@ plot(dtm, gap, type="l", xlab="", ylab="Global Active Power")
 plot(dtm, vol, type="l", xlab="datetime", ylab="Voltage")
 
 # plot(2,1)
-plot(dtm, sm1, type="l", xlab="", ylab="Energy Submetering")
+plot(dtm, sm1, type="l", xlab="", ylab="Energy Sub metering")
 lines(dtm, sm2, type="l", col="red")
 lines(dtm, sm3, type="l", col="blue")
-legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=1, col=c("black", "red", "blue"), bty="o")
+legend("topright", c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), lty=1, col=c("black", "red", "blue"),bty="n")
 
 # plot(2,2)
 plot(dtm, grp, type="l", xlab="datetime", ylab="Global_reactive_power")
